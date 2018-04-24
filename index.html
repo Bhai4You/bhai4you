@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-#example1 {
-    background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
-    padding: 15px;
-    background-size: 50px, 130px, auto;
+<script>
+function disable() {
+    document.getElementById("mySelect").disabled=true;
 }
-</style>
+function enable() {
+    document.getElementById("mySelect").disabled=false;
+}
+</script>
 </head>
 <body>
 
-<div id="example1">
-<h1>Lorem Ipsum Dolor</h1>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</div>
+<form>
+<select id="mySelect">
+  <option>Apple</option>
+  <option>Pear</option>
+  <option>Banana</option>
+  <option>Orange</option>
+</select>
+<br><br>
+<input type="button" onclick="disable()" value="Disable list">
+<input type="button" onclick="enable()" value="Enable list">
+</form>
 
 </body>
 </html>

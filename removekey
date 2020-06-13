@@ -1,0 +1,10 @@
+clear
+echo "Remove Extra Key Setup"
+sleep 2
+cd
+rm -rvf .termux
+echo "Removed..👍"
+sleep 2
+clear
+echo "Restart Termux for Result 🤷"
+exit 1

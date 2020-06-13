@@ -1,0 +1,16 @@
+clear
+echo "Extra Key Setup 1"
+sleep 2
+cd
+rm -rvf .termux
+mkdir .termux
+echo "Setup Complete (1/2)"
+sleep 2
+cd .termux
+touch termux.properties
+echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> termux.properties
+echo "Setup Complete (2/2)"
+sleep 1
+clear
+echo "Restart Termux for Result 🤷"
+exit 1

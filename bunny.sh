@@ -1,17 +1,30 @@
-printf ""
-printf "\n   /gg\           /gg\ "
-printf "\n  /g.gg\         /gg.g\ "
-printf "\n |gg..gg\       /gg..gg| "
-printf "\n |gg...g|       |g...gg| "
-printf "\n |gg...g|       |g...gg| "
-printf "\n  \gg..g/       \g..gg/ "
-printf "\n   |gg.gvgggggggvg.gg| "
-printf "\n  /ggggggggggggggggggg\ "
-printf "\n /gggg(((ggggggg)))gggg\ "
-printf "\n|ggggg....ggggg....ggggg| "
-printf "\n|ggggg....ggggg....ggggg| "
-printf "\n|ggcccgggg\___/ggggcccgg| "
-printf "\n|ggcccccgggg|ggggcccccgg| "
-printf "\n  \gcccggg\---/gggcccg/ "
-printf "\n     \ggggggggggggg/"
-printf ""
+cat << "EOF"
+
+   /gg\           /gg\ "
+  /g.gg\         /gg.g\ "
+ |gg..gg\       /gg..gg| "
+ |gg...g|       |g...gg| "
+ |gg...g|       |g...gg| "
+  \gg..g/       \g..gg/ "
+   |gg.gvgggggggvg.gg| "
+  /ggggggggggggggggggg\ "
+ /gggg(((ggggggg)))gggg\ "
+|ggggg....ggggg....ggggg| "
+|ggggg....ggggg....ggggg| "
+|ggcccgggg\___/ggggcccgg| "
+|ggcccccgggg|ggggcccccgg| "
+  \gcccggg\---/gggcccg/ "
+     \ggggggggggggg/"
+
+ __    __   ______    ______   __    __  ________  _______  
+/  |  /  | /      \  /      \ /  |  /  |/        |/       \ 
+$$ |  $$ |/$$$$$$  |/$$$$$$  |$$ | /$$/ $$$$$$$$/ $$$$$$$  |
+$$ |__$$ |$$ |__$$ |$$ |  $$/ $$ |/$$/  $$ |__    $$ |__$$ |
+$$    $$ |$$    $$ |$$ |      $$  $$<   $$    |   $$    $$< 
+$$$$$$$$ |$$$$$$$$ |$$ |   __ $$$$$  \  $$$$$/    $$$$$$$  |
+$$ |  $$ |$$ |  $$ |$$ \__/  |$$ |$$  \ $$ |_____ $$ |  $$ |
+$$ |  $$ |$$ |  $$ |$$    $$/ $$ | $$  |$$       |$$ |  $$ |
+$$/   $$/ $$/   $$/  $$$$$$/  $$/   $$/ $$$$$$$$/ $$/   $$/ 
+                                                            
+                                                            
+EOF                                                            

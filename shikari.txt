@@ -1,5 +1,5 @@
 export api="key0GxQpsDJ4v1EDM"
 export base='apppZYXKTlKQTaQS0'
 export table="shikari"
-export folder="Anon"
+export folder="AppName"
 [[ "${#BASH_SOURCE[@]}" -gt "1" ]] && { return 0; }

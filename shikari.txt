@@ -1,5 +1,0 @@
-export api="keyamJQWQ1tIQbj9G"
-export base='tblSjzFcvAXkq2iW1'
-export table="data"
-export folder="Anon"
-[[ "${#BASH_SOURCE[@]}" -gt "1" ]] && { return 0; }

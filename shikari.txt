@@ -1,4 +1,4 @@
-export api="key0GxQpsDJ4v1EDM"
+export api="key0xV6FXM9FuSMVz"
 export base='apppZYXKTlKQTaQS0'
 export table="shikari"
 export folder="AppName"
